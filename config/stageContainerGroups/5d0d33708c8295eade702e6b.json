@@ -1,0 +1,12 @@
+{
+  "title": "Introduction to Web3.js",
+  "id": "5d0d33708c8295eade702e6b",
+  "containerType": "Lesson",
+  "description": "Learn how to utilize web3 for interacting with a local or a remote ethereum node for your dApp.",
+  "thumbnailUrl": null,
+  "productionReady": null,
+  "estimatedTime": null,
+  "badgeTypeIds": [
+    "5d0d33a38c8295eade702e6d"
+  ]
+}

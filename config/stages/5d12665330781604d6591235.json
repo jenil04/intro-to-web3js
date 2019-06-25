@@ -1,0 +1,20 @@
+{
+  "type": "CodeStage",
+  "containerId": "5d0d33708c8295eade702e6c",
+  "language": "javascript",
+  "title": "Web3.js -- Contract Methods",
+  "abiValidations": "$$LOOKUP",
+  "task": "$$LOOKUP",
+  "details": "$$LOOKUP",
+  "id": "5d12665330781604d6591235",
+  "languageVersion": "6.x/babel",
+  "testFramework": "mocha_bdd",
+  "codeFileIds": [
+    "5d12665330781604d6591236",
+    "5d12665330781604d6591237",
+    "5d12665330781604d6591238"
+  ],
+  "position": 4,
+  "youtubeId": null,
+  "src": null
+}

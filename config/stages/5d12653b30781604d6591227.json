@@ -1,0 +1,19 @@
+{
+  "containerId": "5d0d33708c8295eade702e6c",
+  "title": "Compiling your Smart Contract ",
+  "abiValidations": "$$LOOKUP",
+  "task": "$$LOOKUP",
+  "details": "$$LOOKUP",
+  "id": "5d12653b30781604d6591227",
+  "type": "CodeStage",
+  "language": "solidity",
+  "languageVersion": "0.5.0",
+  "testFramework": "truffle_with_mocha",
+  "codeFileIds": [
+    "5d12653b30781604d6591228",
+    "5d12653b30781604d6591229"
+  ],
+  "position": 1,
+  "youtubeId": null,
+  "src": null
+}

@@ -1,0 +1,20 @@
+{
+  "type": "CodeStage",
+  "containerId": "5d0d33708c8295eade702e6c",
+  "language": "javascript",
+  "title": "Web3.js -- Configure Accounts & ABI",
+  "abiValidations": "$$LOOKUP",
+  "task": "$$LOOKUP",
+  "details": "$$LOOKUP",
+  "id": "5d12662b30781604d6591230",
+  "languageVersion": "6.x/babel",
+  "testFramework": "mocha_bdd",
+  "codeFileIds": [
+    "5d12662b30781604d6591231",
+    "5d12662b30781604d6591232",
+    "5d12662b30781604d6591233"
+  ],
+  "position": 3,
+  "youtubeId": null,
+  "src": null
+}

@@ -1,6 +1,6 @@
 {
   "executablePath": "contracts/contract.sol",
-  "name": "contract.sol",
+  "name": "auction.sol",
   "testFixture": false,
   "stageContainerId": "5d0d33708c8295eade702e6c",
   "codeStageIds": [
@@ -11,5 +11,7 @@
   "mode": "sol",
   "visible": true,
   "executable": true,
-  "hasProgress": true
+  "hasProgress": true,
+  "fileLocation": null,
+  "readOnly": null
 }

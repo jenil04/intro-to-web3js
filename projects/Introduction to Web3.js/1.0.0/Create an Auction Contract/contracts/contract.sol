@@ -1,12 +1,25 @@
 pragma solidity >= 0.5.0;
 
 contract Auction {
-  mapping(string => uint256) bids;
+  // Keeping track of bids submitted by candidates.
+  mapping(address => uint256) bids;
 
-  string highestBidder;
+  // The latest bid received.
+  address public latestBidder;
+  uint256 latestBid;
+
+  // Manager/Seller for the auction.
+  address public seller;
+
+  address highestBidder;
   bool firstBid = true;
+  
+  function auction(uint256 bid) public {
+      seller = msg.sender;
+      latestBid = bid * 1 ether;
+  }
 
-  function submitBid(string memory name, uint256 bid) public {
+  function submitBid(address name, uint256 bid) public {
     require(bids[name] < bid);
 
     if (firstBid || bid > bids[highestBidder]) {
@@ -16,7 +29,7 @@ contract Auction {
     bids[name] = bid;
   }
 
-  function getHighestBidder() view public returns (string memory) {
+  function getHighestBidder() view public returns (address) {
     return highestBidder;
   }
 

@@ -1,10 +1,12 @@
-## Solidity Task
+## Creating an Auction Contract
 
-Outline the things that need to be done in order to write a smart contract that passes all of the test cases.
+We will first start by creating an auction contract, that we will later connect with a frontend using web3.js.
 
-You can write a list of actions like this:
+### Implement the submitBid() function
 
-- Add a constructor
-- Add a `public` `address` member variable named `recipient`
-- Store the senders address as the initial recipient.
+The `submitBid` function allows a candidate (`name`) with an associated`bid` value to add their value to the `bids` mapping. 
+
+In this task you will:
+- Check whether the candidate's bid -- `name` is less than the `bid`.
+- Update the highestBidder and the `bids` data structure. 
 

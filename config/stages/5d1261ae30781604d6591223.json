@@ -15,5 +15,6 @@
   ],
   "position": 0,
   "youtubeId": null,
-  "src": null
+  "src": null,
+  "completionMessage": "$$LOOKUP"
 }

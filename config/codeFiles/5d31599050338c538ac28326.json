@@ -1,17 +1,17 @@
 {
-  "executablePath": "index.js",
-  "name": "web3.js",
+  "executablePath": "contracts/compile.js",
+  "name": "compile.js",
   "executable": true,
-  "hasProgress": true,
+  "hasProgress": false,
   "mode": "javascript",
   "readOnly": false,
   "testFixture": false,
   "visible": true,
   "stageContainerId": "5d0d33708c8295eade702e6c",
   "codeStageIds": [
-    "5d1265c330781604d659122b"
+    "5d12653b30781604d6591227"
   ],
-  "id": "5d1700029cc8510be79cc792",
+  "id": "5d31599050338c538ac28326",
   "initialCode": "$$LOOKUP",
   "fileLocation": null
 }

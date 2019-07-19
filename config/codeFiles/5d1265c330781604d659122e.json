@@ -1,6 +1,6 @@
 {
-  "executablePath": "setup.js",
-  "name": "setup.js",
+  "executablePath": "App.js",
+  "name": "App.js",
   "testFixture": false,
   "stageContainerId": "5d0d33708c8295eade702e6c",
   "codeStageIds": [
@@ -8,8 +8,10 @@
   ],
   "id": "5d1265c330781604d659122e",
   "initialCode": "$$LOOKUP",
-  "visible": false,
+  "visible": true,
   "executable": true,
-  "readOnly": true,
-  "mode": "javascript"
+  "readOnly": false,
+  "mode": "javascript",
+  "fileLocation": null,
+  "hasProgress": true
 }

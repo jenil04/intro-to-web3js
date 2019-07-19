@@ -1,6 +1,6 @@
 {
   "containerId": "5d0d33708c8295eade702e6c",
-  "title": "Compiling your Smart Contract ",
+  "title": "Web3.js - Deploy your Smart Contract ",
   "abiValidations": "$$LOOKUP",
   "task": "$$LOOKUP",
   "details": "$$LOOKUP",
@@ -11,7 +11,9 @@
   "testFramework": "truffle_with_mocha",
   "codeFileIds": [
     "5d12653b30781604d6591228",
-    "5d12653b30781604d6591229"
+    "5d12653b30781604d6591229",
+    "5d3158bb50338c538ac28324",
+    "5d31599050338c538ac28326"
   ],
   "position": 1,
   "youtubeId": null,

@@ -1,13 +1,13 @@
 {
   "containerId": "5d0d33708c8295eade702e6c",
-  "title": "Create an Auction Contract",
+  "title": "Auction Contract Setup",
   "abiValidations": "$$LOOKUP",
   "task": "$$LOOKUP",
   "details": "$$LOOKUP",
   "id": "5d1261ae30781604d6591223",
   "type": "CodeStage",
   "language": "solidity",
-  "languageVersion": "0.5.0",
+  "languageVersion": "0.4.19",
   "testFramework": "truffle_with_mocha",
   "codeFileIds": [
     "5d1261ae30781604d6591224",

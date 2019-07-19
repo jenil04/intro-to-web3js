@@ -2,7 +2,7 @@
   "type": "CodeStage",
   "containerId": "5d0d33708c8295eade702e6c",
   "language": "javascript",
-  "title": "Web3.js -- Instantiate & Set Provider",
+  "title": "Web3.js - Setting up frontend",
   "abiValidations": "$$LOOKUP",
   "task": "$$LOOKUP",
   "details": "$$LOOKUP",
@@ -10,10 +10,12 @@
   "languageVersion": "6.x/babel",
   "testFramework": "mocha_bdd",
   "codeFileIds": [
-    "5d1265c330781604d659122c",
     "5d1265c330781604d659122d",
     "5d1265c330781604d659122e",
-    "5d1700029cc8510be79cc792"
+    "5d1700029cc8510be79cc792",
+    "5d315b0c50338c538ac28329"
   ],
-  "position": 2
+  "position": 2,
+  "youtubeId": null,
+  "src": null
 }

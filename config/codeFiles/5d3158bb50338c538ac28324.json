@@ -1,6 +1,6 @@
 {
-  "executablePath": "index.js",
-  "name": "web3.js",
+  "executablePath": "contracts/deploy.js",
+  "name": "deploy.js",
   "executable": true,
   "hasProgress": true,
   "mode": "javascript",
@@ -9,9 +9,8 @@
   "visible": true,
   "stageContainerId": "5d0d33708c8295eade702e6c",
   "codeStageIds": [
-    "5d1265c330781604d659122b"
+    "5d12653b30781604d6591227"
   ],
-  "id": "5d1700029cc8510be79cc792",
-  "initialCode": "$$LOOKUP",
-  "fileLocation": null
+  "id": "5d3158bb50338c538ac28324",
+  "initialCode": "$$LOOKUP"
 }

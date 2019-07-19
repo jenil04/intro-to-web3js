@@ -1,8 +1,8 @@
 {
-  "executablePath": "index.js",
-  "name": "web3.js",
+  "executablePath": "auction.js",
+  "name": "auction.js",
   "executable": true,
-  "hasProgress": true,
+  "hasProgress": false,
   "mode": "javascript",
   "readOnly": false,
   "testFixture": false,
@@ -11,7 +11,7 @@
   "codeStageIds": [
     "5d1265c330781604d659122b"
   ],
-  "id": "5d1700029cc8510be79cc792",
+  "id": "5d315b0c50338c538ac28329",
   "initialCode": "$$LOOKUP",
   "fileLocation": null
 }

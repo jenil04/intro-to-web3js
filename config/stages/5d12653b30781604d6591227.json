@@ -7,7 +7,7 @@
   "id": "5d12653b30781604d6591227",
   "type": "CodeStage",
   "language": "solidity",
-  "languageVersion": "0.5.0",
+  "languageVersion": "0.4.19",
   "testFramework": "truffle_with_mocha",
   "codeFileIds": [
     "5d12653b30781604d6591228",
@@ -17,5 +17,6 @@
   ],
   "position": 1,
   "youtubeId": null,
-  "src": null
+  "src": null,
+  "completionMessage": "$$LOOKUP"
 }

@@ -1,5 +1,3 @@
-## Say Congratulations!
+## Congratulations!
 
-This is your chance to tell the user what a great job they did.
-
-And prep them for what's coming next! ;)
+Now that we have compiled and deployed our smart conract let's set up our frontend!

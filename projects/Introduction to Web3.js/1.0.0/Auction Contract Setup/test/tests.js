@@ -10,11 +10,11 @@ contract('Auction', function (accounts) {
     });
 
     it('can enter one account', async () => {
-        await auction.methods.submitBid().send({
+        await contract.submitBid().send({
             from: accounts[1],
             value: web3.utils.toWei('0.02', 'ether')
         });
-        const bidders = await auction.methods.getBidders().call({
+        const bidders = await contract.methods.getBidders().call({
             from: accounts[0]
         });
         assert.equal(1, bidders.length);
@@ -22,19 +22,19 @@ contract('Auction', function (accounts) {
     });
 
     it('can enter mutiple accounts', async () => {
-        await auction.methods.submitBid().send({
+        await Auction.methods.submitBid().send({
             from: accounts[1],
             value: web3.utils.toWei('0.02', 'ether')
         });
-        await auction.methods.submitBid().send({
+        await Auction.methods.submitBid().send({
             from: accounts[2],
             value: web3.utils.toWei('0.02', 'ether')
         });
-        await auction.methods.submitBid().send({
+        await Auction.methods.submitBid().send({
             from: accounts[3],
             value: web3.utils.toWei('0.02', 'ether')
         });
-        const bidders = await lottery.methods.getBidders().call({
+        const bidders = await Auction.methods.getBidders().call({
             from: accounts[0]
         });
 
@@ -46,7 +46,7 @@ contract('Auction', function (accounts) {
 
     it('requires a min amount of ether to enter', async () => {
         try {
-            await auction.methods.submitBid().send({
+            await Auction.methods.submitBid().send({
                 from: accounts[0],
                 value: 100
             });
@@ -57,14 +57,14 @@ contract('Auction', function (accounts) {
     });
 
     it('transfer balance from highest bidder and resets bidders array', async () => {
-        await auction.methods.submitBid().send({
+        await Auction.methods.submitBid().send({
             from: accounts[4],
             value: web3.utils.toWei('2', 'ether')
         });
 
         const initialBalance = await web3.eth.getBalance(accounts[4]);
 
-        await auction.methods.determineWinner().send({
+        await Auction.methods.determineWinner().send({
             from: accounts[0]
         })
 

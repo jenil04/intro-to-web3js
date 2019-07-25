@@ -2,7 +2,7 @@
   "type": "CodeStage",
   "containerId": "5d0d33708c8295eade702e6c",
   "language": "javascript",
-  "title": "Web3.js -- Deploy your dApp",
+  "title": "Download React Application",
   "abiValidations": "$$LOOKUP",
   "task": "$$LOOKUP",
   "details": "$$LOOKUP",
@@ -15,5 +15,7 @@
     "5d1266d230781604d659123d",
     "5d1701529cc8510be79cc796"
   ],
-  "position": 5
+  "position": 5,
+  "youtubeId": null,
+  "src": null
 }

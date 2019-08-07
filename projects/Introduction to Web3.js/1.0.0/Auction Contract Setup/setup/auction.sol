@@ -17,25 +17,15 @@ contract Auction {
       seller = msg.sender;
   }
 
-  function submitBid() public payable {
-        // ADD YOUR CODE HERE
+  function submitBid() public payable {        
+    // ADD YOUR CODE HERE
   }
     
 
   function determineWinner() public {
-    uint256 highestBid = 0;
-    uint256 i;
+    // ADD YOUR CODE HERE
 
-    for (i = 0; i < bids.length; i++) {
-        if (bids[i] > highestBid) {
-            highestBid = bids[i];
-    }
-  }
-   // ADD YOUR CODE HERE
-   // Set the highest bidder and transfer the highest bid using 
-   // the .transfer function.
-   
-   
+
    // Reset: for a new auction round.
    bidders = new address[](0);
  }
@@ -44,7 +34,11 @@ contract Auction {
     return highestBidder;
   }
   
-  function getBidders() view public returns (address[] memory){
+  function getBidders() view public returns (address[]){
       return bidders;
+  }
+  
+  function getBids() view public returns (uint256[]) {
+      return bids;
   }
 }

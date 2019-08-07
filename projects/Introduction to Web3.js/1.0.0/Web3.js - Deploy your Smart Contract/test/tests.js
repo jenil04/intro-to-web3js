@@ -10,6 +10,6 @@ contract('Auction', function (accounts) {
     });
 
     it('deploys a contract', () => {
-        assert.ok(auction.options.address);
+        assert.ok(Auction.options.address);
     });
 });

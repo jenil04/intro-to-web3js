@@ -3,8 +3,8 @@ const Web3 = require('web3');
 const { interface, bytecode } = require('./compile');
 
 const provider = new HDWalletProvider(
-    'resemble liquid various present carpet talent soap opera owner remain erase river embody bracket unhappy',
-    'rinkeby.infura.io/v3/d662bdba98174b5a9b7c40c6fd631314')
+    '',
+    'rinkeby.infura.io/v3/')
 
 const web3 = new Web3(provider);
 

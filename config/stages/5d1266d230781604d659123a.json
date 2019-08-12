@@ -1,5 +1,5 @@
 {
-  "type": "CodeStage",
+  "type": "DownloadStage",
   "containerId": "5d0d33708c8295eade702e6c",
   "language": "javascript",
   "title": "Download React Application",

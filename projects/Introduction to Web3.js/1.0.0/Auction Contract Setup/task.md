@@ -1,13 +1,14 @@
 ## Creating an Auction Contract
 
-We will first start by creating an auction contract, that we will later connect with a frontend using web3.js.
+Hey there! We will first start by creating an auction contract and 
+
+For more detaisl on smart contract
 
 ### Implement the submitBid() function
 
 The `submitBid` function allows a bidder to enter the auction, and make a bid. 
 
 In this task you will:
-- Add a `require` statement making sure that the minimum amount of bid must be 0.01 ether.
 - Initialize `bidders` and `bids` with the first participant for the auction (`msg.sender`).
 
 

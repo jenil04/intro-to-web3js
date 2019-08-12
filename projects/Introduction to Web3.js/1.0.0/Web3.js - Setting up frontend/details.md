@@ -1,3 +1,12 @@
-## Web3.js Stage Details
+## Installing Web3.js 
 
-Here you can write details describing this stage with links to the [Web3.js Documentation](https://web3js.readthedocs.io/en/1.0/).
+You can install web3.js using the command -- `npm install web3`. Make sure to download a stable version. 
+
+## Web3 Object
+
+The web3 object can be instantiated in our application using:
+
+`var Web3 = require('web3');`
+
+### Web3.modules
+

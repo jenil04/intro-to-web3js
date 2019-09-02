@@ -1,6 +1,6 @@
 {
-  "executablePath": "web3.js",
-  "name": "web3.js",
+  "executablePath": "modules.js",
+  "name": "modules.js",
   "executable": true,
   "hasProgress": true,
   "mode": "javascript",
@@ -12,5 +12,6 @@
     "5d12662b30781604d6591230"
   ],
   "id": "5d6c69f6c8114608bb2899f2",
-  "initialCode": "$$LOOKUP"
+  "initialCode": "$$LOOKUP",
+  "fileLocation": null
 }

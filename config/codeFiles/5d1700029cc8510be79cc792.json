@@ -1,6 +1,6 @@
 {
-  "executablePath": "index.js",
-  "name": "web3.js",
+  "executablePath": "modules.js",
+  "name": "modules.js",
   "executable": true,
   "hasProgress": true,
   "mode": "javascript",

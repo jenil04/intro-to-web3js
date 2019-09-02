@@ -1,10 +1,13 @@
-## Web3.js Task
+## Web3.js - Using Utils and Web3.eth
 
-Outline the things that need to be done in order to write a smart contract that passes all of the test cases.
+In this stage we will use some utilities such as a hashing function and a random hex function. Next, you will implement the web3.eth module to get the block number.
 
-You can write a list of actions like this:
+## Task
 
-- Add a constructor
-- Add a `public` `address` member variable named `recipient`
-- Store the senders address as the initial recipient.
+- Use the web3.utils module to get the keccak256 hash of the string -  `Chainshot Web3.js`
 
+- Use the web3.utils module to get the random hex of 64.
+
+- Print out the block number using getBlockNumber method from the web3.eth module. 
+
+For more information on web3.js modules, refer to the details section of this stage.

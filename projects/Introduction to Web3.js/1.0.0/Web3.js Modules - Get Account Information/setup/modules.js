@@ -1,7 +1,5 @@
-// instantiating web3
 const Web3 = require("web3");
 
-// Loading smart contract abi and bytecode.
 const abi = [
     {
         constant: true,
@@ -129,15 +127,21 @@ const abi = [
 const rpc = "https://ropsten.infura.io/v3/d662bdba98174b5a9b7c40c6fd631314";
 const web3 = new Web3(rpc);
 
-// GET ACCOUNT INFORMATION
+const address = "0x0bb3f4d023f3e10df7feeec5396dc96445f61899";
+const contract = new web3.eth.Contract(abi, address);
 
-// Paste your metamask account address here
-const account = "";
+class Modules {
+    constructor() {
+        this.account = "0xBd13f14efE7861C38de3e8F23B63387CF466Bd8b";
+        this.balance = '';
+        this.result = '';
+    }
 
-// Checking account balances
-// ADD YOUR CODE HERE (use the getBalance method to print out your account balance)
+    // Checking account balances
+    getAccountInfo() {
+        // Add your code here.
+    }
 
+}
 
-
-
-
+module.exports = Modules;

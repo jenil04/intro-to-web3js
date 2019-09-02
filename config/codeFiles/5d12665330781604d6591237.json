@@ -1,6 +1,6 @@
 {
-  "executablePath": "test/testEther.js",
-  "name": "testEther.js",
+  "executablePath": "test/test.js",
+  "name": "test.js",
   "testFixture": true,
   "stageContainerId": "5d0d33708c8295eade702e6c",
   "codeStageIds": [
@@ -11,5 +11,7 @@
   "visible": true,
   "readOnly": true,
   "executable": true,
-  "mode": "javascript"
+  "mode": "javascript",
+  "fileLocation": null,
+  "hasProgress": null
 }

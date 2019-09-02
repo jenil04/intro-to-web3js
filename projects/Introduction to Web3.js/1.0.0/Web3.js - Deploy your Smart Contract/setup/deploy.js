@@ -1,23 +1,26 @@
+
 const HDWalletProvider = require('truffle-hdwallet-provider');
-// PART 1: INSTANTIATE WEB3
-const { interface, bytecode } = require('./compile');
+const Web3 = require('web3');
+const { abi, bytecode } = require('./Auction.json');
 
 const provider = new HDWalletProvider(
+    // Part 1: enter your mnemonic from metamask account
     '',
-    'rinkeby.infura.io/v3/')
+    // Part 2: enter link with code infura will email when you sign up
+    'https://ropsten.infura.io/v3/'
+);
 
-const web3 = new Web3(provider);
+const web3 = new //Part 3: set web3 provider
 
 const deploy = async () => {
-    // PART 2: GET ACCOUNTS
-    
-    console.log(`attempting to deploy from account ${accounts[0]}`);
+    const accounts = await // Part 4: get the web3 accounts here for deployment.
+
+    const result = await new // Part 5: add new web3 instance
+        .deploy({ data: bytecode })
+        .send({ gas: '1000000', from: accounts[0] });
 
 
-    // PART 3: USE WEB3.ETH.CONTRACTS
+    console.log('Contract deployed to ', result.options.address);
+};
 
-
-    console.log(interface);
-    console.log(`contract deployed to ${result.options.address}`);
-}
 deploy();

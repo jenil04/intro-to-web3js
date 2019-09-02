@@ -1,0 +1,16 @@
+{
+  "executablePath": "web3.js",
+  "name": "web3.js",
+  "executable": true,
+  "hasProgress": true,
+  "mode": "javascript",
+  "readOnly": false,
+  "testFixture": false,
+  "visible": true,
+  "stageContainerId": "5d0d33708c8295eade702e6c",
+  "codeStageIds": [
+    "5d12665330781604d6591235"
+  ],
+  "id": "5d6c6a1cc8114608bb2899f4",
+  "initialCode": "$$LOOKUP"
+}

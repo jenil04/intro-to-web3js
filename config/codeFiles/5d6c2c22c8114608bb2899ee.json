@@ -1,0 +1,17 @@
+{
+  "executablePath": "Auction.json",
+  "name": "Auction.json",
+  "executable": true,
+  "hasProgress": false,
+  "mode": "json",
+  "readOnly": false,
+  "testFixture": false,
+  "visible": true,
+  "stageContainerId": "5d0d33708c8295eade702e6c",
+  "codeStageIds": [
+    "5d12653b30781604d6591227"
+  ],
+  "id": "5d6c2c22c8114608bb2899ee",
+  "initialCode": "$$LOOKUP",
+  "fileLocation": null
+}

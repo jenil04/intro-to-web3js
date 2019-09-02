@@ -5,7 +5,7 @@
   "description": "Learn how to use web3 for your ethereum dApp.",
   "thumbnailUrl": null,
   "productionReady": null,
-  "estimatedTime": null,
+  "estimatedTime": 120,
   "badgeTypeIds": [
     "5d0d33a38c8295eade702e6d"
   ]

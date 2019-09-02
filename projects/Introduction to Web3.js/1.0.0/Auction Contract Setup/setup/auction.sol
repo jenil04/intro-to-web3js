@@ -12,24 +12,24 @@ contract Auction {
   
   // The highest bidder for the auction.
   address highestBidder;
-
+  
   function auction() public {
       seller = msg.sender;
   }
 
   function submitBid() public payable {        
-    // ADD YOUR CODE HERE
+       // YOUR CODE GOES HERE.
   }
-    
-
+  
   function determineWinner() public {
-    // ADD YOUR CODE HERE
-
-
-   // Reset: for a new auction round.
-   bidders = new address[](0);
- }
-
+        // Setting the last bidder as the winner. 
+        bidders[bidders.length-1].transfer(
+            bids[bids.length -1]);
+        
+        // Reset to a new round of auction.
+        bidders = new address[](0);
+    }
+  
   function getHighestBidder() view public returns (address) {
     return highestBidder;
   }

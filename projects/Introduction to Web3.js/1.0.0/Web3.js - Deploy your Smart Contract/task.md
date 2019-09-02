@@ -1,19 +1,24 @@
-## Compiling & Generating ABI
+## Deploying the Auction Contract on Ropsten
 
-In this stage we will be compling our auction smart contract, 
-and generating bytecode using truffle.
+In this stage we will be deploying our auction smart contract on the ropsten ethereum test network,using truffle and Infura. Before we go on with this stage, let's make sure we have all the dependencies installed. 
 
 ### Requirements
-- Install truffle using `npm install -g truffle`
-- Install solidity compiler using `npm install solc-js`
+- Set up an [infura](https://infura.io/) account to access a free ethereum node.
+- Create and set up your [metamask](https://metamask.io/) account.
+ 
 
-### Get Started
+### Deployment
 
-1. In your console create a directory for the application and `cd` into the directory.
-2. Type `truffle init` to get started with using truffle.
-3. Now, let's add our auction.sol file to the contracts folder.
-4. Before we compile, let's create a `2_deploy_contract.js` file and add the code below.
-5. Inside the contracts directory, let's compile our contracts using `truffle compile`.
-6. After a successful compilation, let's use `truffle migrate` to deploy our smart contract.
+Open up deploy.js and set up the following web3.js instances. For more information about using web3 and getting started, feel free to read through the details section of this stage!
+
+- Part 1: From your metamask account find your unique mnemonic phrase and paste it within the quotes. 
+
+- Part 2: After signing up on infura, paste your project id after the `v3/` in deploy.js.
+
+- Part 3: Set up your web3 [provider](https://web3js.readthedocs.io/en/v1.2.1/web3.html#setprovider) (arguments: provider). 
+
+- Part 4: Use the [getAccounts()](https://web3js.readthedocs.io/en/v1.2.1/web3-eth.html) function to set up our deployment account.
+
+- Part 5: Set up your web3 instance for parsing the [abi](https://web3js.readthedocs.io/en/v1.2.1/web3-eth-contract.html#eth-contract) from Auction.json. 
 
 That's it! Next, we will start working on our client-side application! :)

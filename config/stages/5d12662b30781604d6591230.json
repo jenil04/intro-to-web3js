@@ -2,7 +2,7 @@
   "type": "CodeStage",
   "containerId": "5d0d33708c8295eade702e6c",
   "language": "javascript",
-  "title": "Web3.js - Calling Contract Methods",
+  "title": "Web3.js Modules - Using Contract Methods",
   "abiValidations": "$$LOOKUP",
   "task": "$$LOOKUP",
   "details": "$$LOOKUP",
@@ -10,10 +10,8 @@
   "languageVersion": "6.x/babel",
   "testFramework": "mocha_bdd",
   "codeFileIds": [
-    "5d12662b30781604d6591231",
     "5d12662b30781604d6591232",
-    "5d12662b30781604d6591233",
-    "5d1701319cc8510be79cc794"
+    "5d6c69f6c8114608bb2899f2"
   ],
   "position": 3,
   "youtubeId": null,

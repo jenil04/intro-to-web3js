@@ -2,7 +2,7 @@
   "type": "CodeStage",
   "containerId": "5d0d33708c8295eade702e6c",
   "language": "javascript",
-  "title": "Web3.js - Modules",
+  "title": "Web3.js Modules - Utils & Web3.eth",
   "abiValidations": "$$LOOKUP",
   "task": "$$LOOKUP",
   "details": "$$LOOKUP",
@@ -10,9 +10,8 @@
   "languageVersion": "6.x/babel",
   "testFramework": "mocha_bdd",
   "codeFileIds": [
-    "5d12665330781604d6591236",
     "5d12665330781604d6591237",
-    "5d12665330781604d6591238"
+    "5d6c6a1cc8114608bb2899f4"
   ],
   "position": 4,
   "youtubeId": null,

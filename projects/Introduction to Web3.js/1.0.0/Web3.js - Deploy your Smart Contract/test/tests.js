@@ -23,5 +23,6 @@ const deploy = () => {
 
 describe('Auction Contract', () => {
     it('deploys a contract', () => {
+        assert.ok(Auction)
     });
 })

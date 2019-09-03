@@ -9,8 +9,8 @@ For more detaisl on smart contract
 The `submitBid` function allows a bidder to enter the auction, and make a bid. 
 
 In this task you will:
-- Initialize `bidders` and `bids` with the first participant for the auction (`msg.sender`).
-
+- Push the first participant for the auction onto `bidders` (`msg.sender`) 
+- Push the first bid onto `bids` (`msg.value`)
 
 ### Implement the determineWinner() function
 

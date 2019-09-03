@@ -4,7 +4,7 @@
   "containerType": "Lesson",
   "description": "Learn how to use web3 for your ethereum dApp.",
   "thumbnailUrl": null,
-  "productionReady": null,
+  "productionReady": true,
   "estimatedTime": 120,
   "badgeTypeIds": [
     "5d0d33a38c8295eade702e6d"
